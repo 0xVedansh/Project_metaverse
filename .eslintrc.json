@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-trailing-spaces": "off",
+    "@next/next/expected-indentation": "off"
+  }
 }
